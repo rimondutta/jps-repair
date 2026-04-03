@@ -27,7 +27,7 @@ export default function PricingSection() {
               OUR PRICING PLAN
             </span>
             <h2 className="text-white heading-font text-4xl md:text-5xl font-bold uppercase leading-tight mb-6">
-              Great Packages For Car Detailing
+              Car Maintenance Packages
             </h2>
             <p className="text-[var(--color-textMuted)] leading-relaxed mb-10 text-lg">
               Save <span className="text-[var(--color-primary)] font-bold">30%</span> On Yearly Packages
@@ -70,7 +70,7 @@ export default function PricingSection() {
                 Most Popular
               </div>
 
-              <h3 className="heading-font text-2xl font-bold uppercase text-white mb-2">Detailing Basic</h3>
+              <h3 className="heading-font text-2xl font-bold uppercase text-white mb-2">Basic Maintenance</h3>
               <p className="text-[var(--color-textMuted)] uppercase text-sm font-bold tracking-wider mb-8">Service Plan</p>
               
               <div className="flex items-end justify-center gap-1 mb-10 h-[80px]">
@@ -84,7 +84,7 @@ export default function PricingSection() {
               <div className="w-full h-px bg-white/10 mb-8"></div>
 
               <ul className="flex flex-col gap-5 text-left w-full mb-12">
-                {['Ceramic Coating', 'Color Changing Indoor Light', 'Heavy Duty Bumper', 'Tinting & Polish', 'Water Proofing'].map((feature, i) => (
+                {['Oil & Filter Change', 'Comprehensive Inspection', 'Tire Rotation & Pressure', 'Fluid Level Top-Offs', 'Battery Health Check'].map((feature, i) => (
                   <li key={i} className="flex items-start text-[var(--color-textLight)] font-medium">
                     <CustomCheck />
                     {feature}
@@ -100,7 +100,7 @@ export default function PricingSection() {
             {/* Card 2: Premium Fit */}
             <div className="bg-[#222222] border border-neutral-800 flex-1 p-8 md:p-10 relative group hover:-translate-y-2 transition-transform duration-500 flex flex-col items-center text-center">
 
-              <h3 className="heading-font text-2xl font-bold uppercase text-white mb-2">Premium Fit</h3>
+              <h3 className="heading-font text-2xl font-bold uppercase text-white mb-2">Premium Maintenance</h3>
               <p className="text-[var(--color-textMuted)] uppercase text-sm font-bold tracking-wider mb-8">Service Plan</p>
               
               <div className="flex items-end justify-center gap-1 mb-10 h-[80px]">
@@ -114,7 +114,7 @@ export default function PricingSection() {
               <div className="w-full h-px bg-white/10 mb-8"></div>
 
               <ul className="flex flex-col gap-5 text-left w-full mb-12">
-                {['Water Proofing of Glass', 'Seat Cover Installation', 'Color Changing Indoor Light', 'Heavy Duty Bumper', 'Tinting & Polish', 'Wheel Alignment Checking'].map((feature, i) => (
+                {['Full Synthetic Oil Change', 'Complete AC System Check', 'Tire Rotation & Alignment', 'Brake Inspection & Service', 'Fluid System Flush', 'Engine Diagnostic Scan'].map((feature, i) => (
                   <li key={i} className="flex items-start text-[var(--color-textLight)] font-medium">
                     <CustomCheck />
                     {feature}
