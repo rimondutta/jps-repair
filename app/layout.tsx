@@ -17,8 +17,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "JPS REPAIR IT MOBILE | Car Maintenance Repair and Detailing",
-  description: "Best automobile detailing workshop providing all types of car maintenance services.",
+  title: "JPS REPAIR IT MOBILE | Car Repair and Maintenance",
+  description: "Best automobile maintenance workshop providing all types of car repair and maintenance services.",
 };
 
 export default function RootLayout({

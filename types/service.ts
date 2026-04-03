@@ -4,7 +4,6 @@ export type ServiceCategory =
   | 'tires-wheels'
   | 'body-denting'
   | 'electrical'
-  | 'detailing-coating'
   | 'glass-windshield';
 
 export interface Service {

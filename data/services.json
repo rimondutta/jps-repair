@@ -16,30 +16,72 @@
       "JPS REPAIR IT MOBILE was established to help families secure dependable repair structures. As a standing RMI member, our network of trusted franchisees continually provides 100% genuine servicing protocols ensuring total life cycle management across millions of vehicle platforms globally."
     ],
     "checklist": [
-      "Ceramic Coating Services", 
-      "Tire Disc Blade Changing", 
-      "Battery Check & Repair", 
+      "Ceramic Coating Services",
+      "Tire Disc Blade Changing",
+      "Battery Check & Repair",
       "Oil Change Services",
-      "Engine Repair Services", 
-      "Club 360 Class Facility", 
-      "Tanning/Red-Light Therapy", 
+      "Engine Repair Services",
+      "Club 360 Class Facility",
+      "Tanning/Red-Light Therapy",
       "Guest Passes & Bottled Water"
     ],
     "iconBoxes": [
-      { "iconName": "Activity", "title": "Quality Check Facility", "description": "JPS REPAIR IT MOBILE is a member of the RMI. As a member, our center abides by the Code of Conduct." },
-      { "iconName": "Store", "title": "Retail Motor Industry", "description": "We are proud members of the Retail Motor Industry Organisation (RMI), ensuring standard excellence." },
-      { "iconName": "Settings", "title": "Expert Servicing", "description": "Our staff is highly experienced so you can trust us with your machine's next maintenance phase." },
-      { "iconName": "Cpu", "title": "Modern Technology", "description": "JPS REPAIR IT MOBILE uses modern technology and laser equipment for all repairs and diagnostics." },
-      { "iconName": "Droplets", "title": "Detailing Facility", "description": "High pressure cleaning systems combined with premium chemicals for internal and external detailing." },
-      { "iconName": "Wrench", "title": "Advanced Engineering", "description": "Precision engineering involving physical machines that handle extreme force and movement." }
+      {
+        "iconName": "Activity",
+        "title": "Quality Check Facility",
+        "description": "JPS REPAIR IT MOBILE is a member of the RMI. As a member, our center abides by the Code of Conduct."
+      },
+      {
+        "iconName": "Store",
+        "title": "Retail Motor Industry",
+        "description": "We are proud members of the Retail Motor Industry Organisation (RMI), ensuring standard excellence."
+      },
+      {
+        "iconName": "Settings",
+        "title": "Expert Servicing",
+        "description": "Our staff is highly experienced so you can trust us with your machine's next maintenance phase."
+      },
+      {
+        "iconName": "Cpu",
+        "title": "Modern Technology",
+        "description": "JPS REPAIR IT MOBILE uses modern technology and laser equipment for all repairs and diagnostics."
+      },
+      {
+        "iconName": "Droplets",
+        "title": "Maintenance Facility",
+        "description": "High pressure cleaning systems combined with premium chemicals for internal and external maintenance."
+      },
+      {
+        "iconName": "Wrench",
+        "title": "Advanced Engineering",
+        "description": "Precision engineering involving physical machines that handle extreme force and movement."
+      }
     ],
     "mechanics": [
-      { "name": "DAVID BRANDON", "role": "Engine Specialist" },
-      { "name": "KATHERINE LEGGE", "role": "Design Engineer" },
-      { "name": "FERNANDO ALONSO", "role": "Engine Specialist" },
-      { "name": "MARIO ANDRETTI", "role": "Design Engineer" },
-      { "name": "TOM KRISTENSEN", "role": "Engine Specialist" },
-      { "name": "EMILY ROBINSON", "role": "Design Engineer" }
+      {
+        "name": "DAVID BRANDON",
+        "role": "Engine Specialist"
+      },
+      {
+        "name": "KATHERINE LEGGE",
+        "role": "Design Engineer"
+      },
+      {
+        "name": "FERNANDO ALONSO",
+        "role": "Engine Specialist"
+      },
+      {
+        "name": "MARIO ANDRETTI",
+        "role": "Design Engineer"
+      },
+      {
+        "name": "TOM KRISTENSEN",
+        "role": "Engine Specialist"
+      },
+      {
+        "name": "EMILY ROBINSON",
+        "role": "Design Engineer"
+      }
     ]
   },
   {
@@ -67,8 +109,16 @@
       "Rim Restoration Services"
     ],
     "iconBoxes": [
-      { "iconName": "Activity", "title": "Precision Balancing", "description": "We use laser-guided balancing machines to eliminate steering vibrations and ensure even tire wear." },
-      { "iconName": "Settings", "title": "OEM Alignment", "description": "Our computerized alignment system matches your vehicle's factory specifications for optimal handling." }
+      {
+        "iconName": "Activity",
+        "title": "Precision Balancing",
+        "description": "We use laser-guided balancing machines to eliminate steering vibrations and ensure even tire wear."
+      },
+      {
+        "iconName": "Settings",
+        "title": "OEM Alignment",
+        "description": "Our computerized alignment system matches your vehicle's factory specifications for optimal handling."
+      }
     ]
   },
   {
@@ -111,32 +161,6 @@
     "image": "/assets/asset 66.jpeg"
   },
   {
-    "id": "6",
-    "title": "Hydro Dripping",
-    "slug": "hydro-dripping",
-    "category": "detailing-coating",
-    "shortDescription": "Water transfer printing for custom dashboard designs, rims, and engine bay styling covers.",
-    "description": "Apply intricate carbon fiber, camo, or custom graphics onto 3D dimensional parts via specialized hydro-dip chemical processes.",
-    "icon": "Droplets",
-    "isActive": true,
-    "duration": "2-3 Days",
-    "price": "From $199",
-    "image": "/assets/asset 16.jpeg"
-  },
-  {
-    "id": "7",
-    "title": "Ceramic Coating",
-    "slug": "ceramic-coating",
-    "category": "detailing-coating",
-    "shortDescription": "9H nanotechnology liquid polymer applied to exterior mapping repelling water, dust, and UV radiation.",
-    "description": "Protect your factory paint with aerospace-grade ceramic formulas forming a sacrificial layer of hydrophobic glass over your vehicle.",
-    "icon": "Layers",
-    "isActive": true,
-    "duration": "24 Hours",
-    "price": "From $450",
-    "image": "/assets/asset 40.jpeg"
-  },
-  {
     "id": "8",
     "title": "Alignment Fixing",
     "slug": "alignment-fixing",
@@ -174,18 +198,5 @@
     "duration": "2 Hours",
     "price": "From $250",
     "image": "/assets/asset 43.jpeg"
-  },
-  {
-    "id": "11",
-    "title": "Deep Interior Shampoo",
-    "slug": "interior-shampoo",
-    "category": "detailing-coating",
-    "shortDescription": "Steam cleaning, extraction vacuuming, and leather upholstery conditioning.",
-    "description": "Eradicate odors, spills, and allergens from carpet fibers while restoring leather dashboard suppleness via pH-balanced moisturizers.",
-    "icon": "Sparkles",
-    "isActive": true,
-    "duration": "3-4 Hours",
-    "price": "From $129",
-    "image": "/assets/asset 47.jpeg"
   }
 ]

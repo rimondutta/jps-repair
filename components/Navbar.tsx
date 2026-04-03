@@ -35,17 +35,17 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-[100] flex flex-col transition-all duration-300">
-      
+
       {/* ROW 1: TOP INFO BAR (Always Sticky) */}
-      <div 
+      <div
         className="hidden lg:flex w-full bg-[#0E0E0E] text-white text-[11px] py-3.5 border-b border-[#222] transition-all duration-300 h-11"
       >
         <div className="container mx-auto px-8 max-w-[1920px] flex justify-between items-center">
-          
+
           <div className="flex items-center">
             <div className="flex items-center gap-2 pr-6 border-r border-[#333]">
               <Mail className="w-3.5 h-3.5 text-[var(--color-primary)]" />
-              <span className="font-medium tracking-wider">test@gmail.com</span>
+              <span className="font-medium tracking-wider">info@jpsrepair.com</span>
             </div>
             <div className="flex items-center gap-2 px-6 border-r border-[#333]">
               <Clock className="w-3.5 h-3.5 text-[var(--color-primary)]" />
@@ -69,12 +69,11 @@ export default function Navbar() {
       </div>
 
       {/* ROW 2: MAIN NAVIGATION BAR */}
-      <nav 
-        className={`w-full transition-all duration-500 overflow-hidden ${
-          isScrolled 
-            ? "bg-[#0E0E0E]/95 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.5)] border-b border-[#333]" 
-            : "bg-[#0A0A0A] border-b border-[#222]"
-        }`}
+      <nav
+        className={`w-full transition-all duration-500 overflow-hidden ${isScrolled
+          ? "bg-[#0E0E0E]/95 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.5)] border-b border-[#333]"
+          : "bg-[#0A0A0A] border-b border-[#222]"
+          }`}
       >
         <div className="flex justify-between items-center pl-4 pr-0 sm:px-8 lg:px-12 max-w-[1920px] mx-auto h-[70px] sm:h-[80px] md:h-[90px]">
 
@@ -96,21 +95,19 @@ export default function Navbar() {
                 <Link
                   key={index}
                   href={link.href}
-                  className={`relative flex items-center h-full transition-all duration-300 group ${
-                    active ? "text-[var(--color-primary)]" : "text-white hover:text-[var(--color-primary)]"
-                  }`}
+                  className={`relative flex items-center h-full transition-all duration-300 group ${active ? "text-[var(--color-primary)]" : "text-white hover:text-[var(--color-primary)]"
+                    }`}
                 >
                   {link.name}
-                  <span className={`absolute bottom-0 left-0 h-0.5 bg-[var(--color-primary)] transition-all duration-500 ease-in-out ${
-                    active ? "w-full opacity-100" : "w-0 opacity-0 group-hover:w-full group-hover:opacity-100"
-                  }`}></span>
+                  <span className={`absolute bottom-0 left-0 h-0.5 bg-[var(--color-primary)] transition-all duration-500 ease-in-out ${active ? "w-full opacity-100" : "w-0 opacity-0 group-hover:w-full group-hover:opacity-100"
+                    }`}></span>
                 </Link>
               );
             })}
           </div>
 
           <div className="flex items-stretch justify-end shrink-0 h-full">
-            
+
 
             {/* CALL TO ACTION */}
             <div className="hidden sm:flex items-center gap-4 px-6 md:px-10 border-l border-white/10 h-[50px] my-auto">
@@ -138,10 +135,9 @@ export default function Navbar() {
       </nav>
 
       {/* MOBILE DRAWER OVERLAY */}
-      <div 
-        className={`lg:hidden fixed inset-0 bg-black/95 z-[99] transition-all duration-500 ease-in-out transform ${
-          mobileMenuOpen ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full pointer-events-none"
-        }`}
+      <div
+        className={`lg:hidden fixed inset-0 bg-black/95 z-[99] transition-all duration-500 ease-in-out transform ${mobileMenuOpen ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full pointer-events-none"
+          }`}
       >
         <div className="flex flex-col h-full pt-[100px] px-10 gap-8">
           {navLinks.map((link, index) => {
@@ -151,9 +147,8 @@ export default function Navbar() {
                 key={index}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`font-black text-4xl uppercase tracking-tighter transition-colors inline-block ${
-                  active ? "text-[var(--color-primary)]" : "text-white hover:text-[var(--color-primary)]"
-                }`}
+                className={`font-black text-4xl uppercase tracking-tighter transition-colors inline-block ${active ? "text-[var(--color-primary)]" : "text-white hover:text-[var(--color-primary)]"
+                  }`}
                 style={{ transitionDelay: `${index * 50}ms` }}
               >
                 <span className="text-[var(--color-primary)] text-sm font-medium tracking-[0.3em] mr-4 opacity-50">0{index + 1}</span>
@@ -161,17 +156,17 @@ export default function Navbar() {
               </Link>
             );
           })}
-          
+
           <div className="mt-12 pt-12 border-t border-[#333] flex flex-col gap-6">
-             <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-[var(--color-primary)]">
-                   <Phone className="w-5 h-5" />
-                </div>
-                <div className="flex flex-col">
-                   <span className="text-white/40 text-[10px] uppercase font-bold tracking-widest">Call Now</span>
-                   <span className="text-white font-bold text-xl">+1 786 932 5802</span>
-                </div>
-             </div>
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-[var(--color-primary)]">
+                <Phone className="w-5 h-5" />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-white/40 text-[10px] uppercase font-bold tracking-widest">Call Now</span>
+                <span className="text-white font-bold text-xl">+1 786 932 5802</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

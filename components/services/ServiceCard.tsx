@@ -23,7 +23,6 @@ const categoryLabels: Record<string, string> = {
   "tires-wheels": "Tires & Wheels",
   "body-denting": "Body & Denting",
   "electrical": "Electrical",
-  "detailing-coating": "Detailing & Coating",
   "glass-windshield": "Glass & Windshield",
 };
 

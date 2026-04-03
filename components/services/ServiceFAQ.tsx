@@ -7,7 +7,7 @@ const faqs = [
   {
     id: 1,
     question: "How long does a typical service take?",
-    answer: "Most standard maintenance services like oil changes, tire rotations, or brake pad replacements take between 45 minutes to 2 hours. Major mechanical repairs or detailing services can take 1 to 3 days depending on the scope of work."
+    answer: "Most standard maintenance services like oil changes, tire rotations, or brake pad replacements take between 45 minutes to 2 hours. Major mechanical repairs or maintenance services can take 1 to 3 days depending on the scope of work."
   },
   {
     id: 2,

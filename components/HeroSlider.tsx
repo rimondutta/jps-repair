@@ -7,9 +7,9 @@ import Link from "next/link";
 const slides = [
   {
     id: 1,
-    subtitle: "BEST AUTOMOBILE DETAILING WORKSHOP",
-    title: "Car Maintenance Repair and Detailing Services",
-    description: "We provide comprehensive diagnostic, repair, and detailing services utilizing advanced workshop equipment to get you back on the road safely.",
+    subtitle: "BEST AUTOMOBILE MAINTENANCE WORKSHOP",
+    title: "Car Repair and Maintenance Services",
+    description: "We provide comprehensive diagnostic, repair, and maintenance services utilizing advanced workshop equipment to get you back on the road safely.",
     bgClass: "bg-[url('/assets/asset%2062.jpeg')] bg-cover bg-center",
   },
   {

@@ -50,7 +50,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-[var(--color-textMuted)] mb-6 leading-relaxed text-sm">
-              We are a premium automotive repair & detailing workshop dedicated to top-tier care and maintenance of your vehicle.
+              We are a premium automotive repair & maintenance workshop dedicated to top-tier care and maintenance of your vehicle.
             </p>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
@@ -70,7 +70,7 @@ export default function Footer() {
               Our Services
             </h3>
             <ul className="flex flex-col gap-3">
-              {['Engine Diagnostics & Repair', 'Advanced Auto Detailing', 'Tire Change & Balancing', 'Paint & Body Work', 'Transmission Services'].map((item, i) => (
+              {['Engine Diagnostics & Repair', 'Advanced Auto Maintenance', 'Tire Change & Balancing', 'Paint & Body Work', 'Transmission Services'].map((item, i) => (
                 <li key={i}>
                   <Link href="#" className="text-[var(--color-textMuted)] hover:text-[var(--color-primary)] transition-colors flex items-center gap-2 text-sm group">
                     <ArrowRight className="w-4 h-4 text-[var(--color-primary)] opacity-0 -ml-6 group-hover:opacity-100 group-hover:ml-0 transition-all" />

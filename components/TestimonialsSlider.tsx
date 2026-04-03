@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     name: "Alex Johnson",
     city: "Detroit, MI",
-    quote: "I've visited numerous auto detailing shops, but JPS REPAIR IT MOBILE exceeds all expectations. Their attention to detail on my classic car's ceramic coating was phenomenal. True experts.",
+    quote: "I've visited numerous auto maintenance shops, but JPS REPAIR IT MOBILE exceeds all expectations. Their attention to detail on my classic car was phenomenal. True experts.",
     rating: 5,
     image: "/assets/asset 35.png"
   },
