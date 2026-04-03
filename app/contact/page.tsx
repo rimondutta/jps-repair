@@ -6,8 +6,8 @@ import ContactMapSection from "@/components/contact/ContactMapSection";
 import ContactCTABanner from "@/components/contact/ContactCTABanner";
 
 export const metadata: Metadata = {
-  title: "Contact Us | AutoFix Pro Car Repair",
-  description: "Get in touch with AutoFix Pro. Call us, email us, or visit our workshop at 3205 NW 5th Ave, Miami, FL 33127, United States. Professional car maintenance services.",
+  title: "Contact Us | JPS REPAIR IT MOBILE",
+  description: "Get in touch with JPS REPAIR IT MOBILE. Call us, email us, or visit our workshop at Miami, FL 33142. Professional car maintenance services.",
 };
 
 export default function ContactPage() {

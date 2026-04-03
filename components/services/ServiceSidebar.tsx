@@ -58,8 +58,8 @@ export default function ServiceSidebar({ currentSlug }: ServiceSidebarProps) {
             Need Help? Call Us Now
           </span>
           
-          <a href="tel:+17869881966" className="text-white text-3xl font-black drop-shadow-xl hover:text-black transition-colors">
-            +1 786 988 1966
+          <a href="tel:+17869325802" className="text-white text-3xl font-black drop-shadow-xl hover:text-black transition-colors">
+            +1 786 932 5802
           </a>
         </div>
       </div>

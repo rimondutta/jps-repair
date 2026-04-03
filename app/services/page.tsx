@@ -7,7 +7,7 @@ import ServiceFAQ from "../../components/services/ServiceFAQ";
 import ServiceGuarantee from "../../components/services/ServiceGuarantee";
 
 export const metadata: Metadata = {
-  title: "Our Services | AutoFix Pro Car Repair",
+  title: "Our Services | JPS REPAIR IT MOBILE",
   description: "Expert car repair services including engine repair, tire change, denting repair, ceramic coating and more. Certified mechanics, 6-month guarantee.",
 };
 

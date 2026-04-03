@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "ALEXANDER G. RAY",
     role: "Happy Client",
-    review: "The engine diagnostics and repair service at AutoFix Pro was exceptional. My car feels like new again, and the team provided professional advice throughout the process. Highly recommended!",
+    review: "The engine diagnostics and repair service at JPS REPAIR IT MOBILE was exceptional. My car feels like new again, and the team provided professional advice throughout the process. Highly recommended!",
     rating: 5,
     date: "March 15, 2026"
   },

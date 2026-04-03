@@ -4,7 +4,7 @@
     "title": "Engine Repair Services",
     "slug": "engine-repair",
     "category": "engine-mechanical",
-    "shortDescription": "When you bring your vehicle to AutoFix Pro, you can rest easy knowing that your vehicle is in professional hands...",
+    "shortDescription": "When you bring your vehicle to JPS REPAIR IT MOBILE, you can rest easy knowing that your vehicle is in professional hands...",
     "description": "Our certified technicians perform deep analysis utilizing automated diagnostic tooling. We can rebuild, replace, and tune critical engine components to factory standards.",
     "icon": "Settings2",
     "isActive": true,
@@ -12,8 +12,8 @@
     "price": "From $299",
     "image": "/assets/asset 12.jpeg",
     "detailedContent": [
-      "When you bring your vehicle to AutoFix Pro Car Mechanic Center, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure that your experience with us is pleasant and efficient. Our mechanics are factory trained and highly experienced, ensuring every major or minor problem is successfully resolved using genuine parts and computer diagnostics protocols.",
-      "AutoFix Pro was established to help families secure dependable repair structures. As a standing RMI member, our network of trusted franchisees continually provides 100% genuine servicing protocols ensuring total life cycle management across millions of vehicle platforms globally."
+      "When you bring your vehicle to JPS REPAIR IT MOBILE, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure that your experience with us is pleasant and efficient. Our mechanics are factory trained and highly experienced, ensuring every major or minor problem is successfully resolved using genuine parts and computer diagnostics protocols.",
+      "JPS REPAIR IT MOBILE was established to help families secure dependable repair structures. As a standing RMI member, our network of trusted franchisees continually provides 100% genuine servicing protocols ensuring total life cycle management across millions of vehicle platforms globally."
     ],
     "checklist": [
       "Ceramic Coating Services", 
@@ -26,10 +26,10 @@
       "Guest Passes & Bottled Water"
     ],
     "iconBoxes": [
-      { "iconName": "Activity", "title": "Quality Check Facility", "description": "AutoFix Pro is a member of the RMI. As a member, our center abides by the Code of Conduct." },
+      { "iconName": "Activity", "title": "Quality Check Facility", "description": "JPS REPAIR IT MOBILE is a member of the RMI. As a member, our center abides by the Code of Conduct." },
       { "iconName": "Store", "title": "Retail Motor Industry", "description": "We are proud members of the Retail Motor Industry Organisation (RMI), ensuring standard excellence." },
       { "iconName": "Settings", "title": "Expert Servicing", "description": "Our staff is highly experienced so you can trust us with your machine's next maintenance phase." },
-      { "iconName": "Cpu", "title": "Modern Technology", "description": "AutoFix Pro uses modern technology and laser equipment for all repairs and diagnostics." },
+      { "iconName": "Cpu", "title": "Modern Technology", "description": "JPS REPAIR IT MOBILE uses modern technology and laser equipment for all repairs and diagnostics." },
       { "iconName": "Droplets", "title": "Detailing Facility", "description": "High pressure cleaning systems combined with premium chemicals for internal and external detailing." },
       { "iconName": "Wrench", "title": "Advanced Engineering", "description": "Precision engineering involving physical machines that handle extreme force and movement." }
     ],

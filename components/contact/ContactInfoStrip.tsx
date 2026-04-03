@@ -57,9 +57,9 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<Phone className="w-8 h-8" />}
             label="CALL US ANYTIME"
-            value="+17869881966"
+            value="+17869325802"
             sub="Monâ€“Sat 9:00am â€“ 7:00pm"
-            href="tel:+17869881966"
+            href="tel:+17869325802"
             delay={0}
             showDivider={true}
           />
@@ -67,9 +67,9 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<Mail className="w-8 h-8" />}
             label="SEND US AN EMAIL"
-            value="info@autofixpro.com"
+            value="info@jpsrepair.com"
             sub="We reply within 24 hours"
-            href="mailto:info@autofixpro.com"
+            href="mailto:info@jpsrepair.com"
             delay={100}
             showDivider={true}
           />
@@ -77,8 +77,8 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<MapPin className="w-8 h-8" />}
             label="VISIT OUR LOCATION"
-            value="3205 NW 5th Ave, Miami, FL 33127, United States"
-            sub="Renton, WA 98058-5055"
+            value="Miami, FL 33142"
+            sub="Miami, FL"
             delay={200}
             showDivider={false}
           />

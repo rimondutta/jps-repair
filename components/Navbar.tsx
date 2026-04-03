@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Mail, Clock, MapPin, ShoppingCart, Phone, Menu, X, Wrench, Rss } from "lucide-react";
+import { Mail, Clock, MapPin, Phone, Menu, X, Wrench, Rss } from "lucide-react";
 import { Facebook, Twitter, Linkedin, Instagram } from "./services/SocialIcons";
 
 export default function Navbar() {
@@ -24,7 +24,6 @@ export default function Navbar() {
     { name: "PAGES", href: "#" },
     { name: "SERVICES", href: "/services" },
     { name: "BLOG", href: "/#blog" },
-    { name: "SHOP", href: "#" },
     { name: "CONTACT US", href: "/contact" },
   ];
 
@@ -54,7 +53,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-2 pl-6">
               <MapPin className="w-3.5 h-3.5 text-[var(--color-primary)]" />
-              <span className="font-medium tracking-wider">3205 NW 5th Ave, Miami, FL 33127, United States</span>
+              <span className="font-medium tracking-wider">Miami, FL 33142</span>
             </div>
           </div>
 
@@ -71,21 +70,21 @@ export default function Navbar() {
 
       {/* ROW 2: MAIN NAVIGATION BAR */}
       <nav 
-        className={`w-full transition-all duration-500 ${
+        className={`w-full transition-all duration-500 overflow-hidden ${
           isScrolled 
             ? "bg-[#0E0E0E]/95 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.5)] border-b border-[#333]" 
             : "bg-[#0A0A0A] border-b border-[#222]"
         }`}
       >
-        <div className="flex justify-between items-center px-8 lg:px-12 max-w-[1920px] mx-auto h-[80px] md:h-[90px]">
+        <div className="flex justify-between items-center pl-4 pr-0 sm:px-8 lg:px-12 max-w-[1920px] mx-auto h-[70px] sm:h-[80px] md:h-[90px]">
 
           {/* LOGO */}
-          <Link href="/" className="flex items-center group">
-            <div className="w-10 h-10 bg-[var(--color-primary)] rounded-full flex items-center justify-center mr-3 group-hover:rotate-12 transition-transform">
-              <Wrench className="text-white w-5 h-5" />
+          <Link href="/" className="flex items-center group shrink min-w-0 mr-2">
+            <div className="w-7 h-7 sm:w-10 sm:h-10 bg-[var(--color-primary)] rounded-full flex items-center justify-center mr-2 sm:mr-3 group-hover:rotate-12 transition-transform shrink-0">
+              <Wrench className="text-white w-3.5 h-3.5 sm:w-5 sm:h-5" />
             </div>
-            <span className="text-white text-2xl md:text-3xl font-black uppercase tracking-tight whitespace-nowrap flex items-center">
-              AUTO<span className="text-[var(--color-primary)]">FIX</span>PRO
+            <span className="text-white text-[15px] sm:text-xl md:text-2xl lg:text-3xl font-black uppercase tracking-tight flex items-center truncate">
+              JPS<span className="text-[var(--color-primary)]">REPAIR</span>IT MOBILE
             </span>
           </Link>
 
@@ -110,37 +109,28 @@ export default function Navbar() {
             })}
           </div>
 
-          <div className="flex items-stretch justify-end">
+          <div className="flex items-stretch justify-end shrink-0 h-full">
             
-            {/* SHOPPING CART */}
-            <div className="hidden lg:flex items-center justify-center px-10 border-l border-white/10 h-[50px] my-auto">
-              <button className="relative text-white hover:text-[var(--color-primary)] transition-colors">
-                <ShoppingCart className="w-5 h-5" />
-                <span className="absolute -top-3 -right-4 bg-[var(--color-primary)] text-white text-[10px] font-bold w-5 h-5 flex items-center justify-center rounded-full border-2 border-black shadow-lg">
-                  0
-                </span>
-              </button>
-            </div>
 
             {/* CALL TO ACTION */}
-            <div className="hidden sm:flex items-center gap-4 px-10 border-l border-white/10 h-[50px] my-auto">
-              <div className="w-11 h-11 rounded-full bg-[var(--color-primary)] flex items-center justify-center text-white shadow-[0_0_15px_rgba(215,0,6,0.3)] hover:scale-110 transition-transform cursor-pointer">
-                <Phone className="w-5 h-5 fill-current" />
+            <div className="hidden sm:flex items-center gap-4 px-6 md:px-10 border-l border-white/10 h-[50px] my-auto">
+              <div className="w-9 h-9 md:w-11 md:h-11 rounded-full bg-[var(--color-primary)] flex items-center justify-center text-white shadow-[0_0_15px_rgba(215,0,6,0.3)] hover:scale-110 transition-transform cursor-pointer">
+                <Phone className="w-4 h-4 md:w-5 md:h-5 fill-current" />
               </div>
               <div className="flex flex-col justify-center leading-tight">
                 <span className="text-[10px] text-white/60 font-bold uppercase tracking-widest mb-0.5">Need Help?</span>
-                <a href="tel:+17869881966" className="text-white font-black text-lg hover:text-[var(--color-primary)] transition-colors">
-                  +1 786 988 1966
+                <a href="tel:+17869325802" className="text-white font-black text-sm md:text-lg hover:text-[var(--color-primary)] transition-colors">
+                  +1 786 932 5802
                 </a>
               </div>
             </div>
 
             {/* MOBILE HAMBURGER BLOCK */}
             <button
-              className="bg-[var(--color-primary)] hover:bg-[#b00005] transition-colors w-[80px] lg:hidden h-[80px] md:h-[90px] flex items-center justify-center text-white z-[110]"
+              className="bg-[var(--color-primary)] hover:bg-[#b00005] transition-colors w-[70px] sm:w-[80px] lg:hidden h-full flex items-center justify-center text-white z-[110]"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
-              {mobileMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
+              {mobileMenuOpen ? <X className="w-6 h-6 sm:w-8 sm:h-8" /> : <Menu className="w-6 h-6 sm:w-8 sm:h-8" />}
             </button>
           </div>
 
@@ -179,7 +169,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex flex-col">
                    <span className="text-white/40 text-[10px] uppercase font-bold tracking-widest">Call Now</span>
-                   <span className="text-white font-bold text-xl">+1 786 988 1966</span>
+                   <span className="text-white font-bold text-xl">+1 786 932 5802</span>
                 </div>
              </div>
           </div>

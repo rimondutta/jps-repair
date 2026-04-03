@@ -27,9 +27,9 @@ export default function ContactInfoPanel() {
   }, []);
 
   const contactRows = [
-    { icon: <Phone size={18} />, label: "Phone", value: "+123 45677345", href: "tel:12345677345" },
-    { icon: <Mail size={18} />, label: "Email", value: "info@autofixpro.com", href: "mailto:info@autofixpro.com" },
-    { icon: <MapPin size={18} />, label: "Address", value: "3205 NW 5th Ave, Miami, FL 33127, United States", href: undefined },
+    { icon: <Phone size={18} />, label: "Phone", value: "+1 786 932 5802", href: "tel:+17869325802" },
+    { icon: <Mail size={18} />, label: "Email", value: "info@jpsrepair.com", href: "mailto:info@jpsrepair.com" },
+    { icon: <MapPin size={18} />, label: "Address", value: "Miami, FL 33142", href: undefined },
   ];
 
   return (
@@ -56,7 +56,7 @@ export default function ContactInfoPanel() {
         </h2>
         
         <p className="text-[#999] text-base leading-relaxed mb-8">
-          When you bring your vehicle to AutoFix Pro, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure your experience is pleasant and efficient.
+          When you bring your vehicle to JPS REPAIR IT MOBILE, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure your experience is pleasant and efficient.
         </p>
 
         <div className="flex flex-col gap-6">

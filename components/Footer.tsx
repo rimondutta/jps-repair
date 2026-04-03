@@ -46,7 +46,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-6 group inline-flex">
               <Car className="text-[var(--color-primary)] w-8 h-8 group-hover:scale-110 transition-transform" />
               <span className="text-white text-2xl font-bold heading-font uppercase tracking-wider">
-                AutoFix<span className="text-[var(--color-primary)]">.</span>Pro
+                JPS<span className="text-[var(--color-primary)]">REPAIR</span>IT MOBILE
               </span>
             </Link>
             <p className="text-[var(--color-textMuted)] mb-6 leading-relaxed text-sm">
@@ -57,7 +57,7 @@ export default function Footer() {
                 <MapPin className="text-[var(--color-primary)] w-5 h-5 shrink-0 mt-1" />
                 <p className="text-[var(--color-textLight)] text-sm">
                   <strong className="block text-white mb-1">VISIT OUR LOCATION</strong>
-                  3205 NW 5th Ave, Miami, FL 33127, United States
+                  Miami, FL 33142
                 </p>
               </div>
             </div>
@@ -129,7 +129,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-4">
           <p className="text-[var(--color-textMuted)] text-sm text-center md:text-left">
-            &copy; {currentYear} AutoFix Pro. All Rights Reserved. | Developed by <a href="https://rimondutta.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--color-primary)] transition-colors underline underline-offset-4 decoration-[var(--color-primary)]/30">Rimon Dutta</a>
+            &copy; {currentYear} JPS REPAIR IT MOBILE. All Rights Reserved. | Developed by <a href="https://rimondutta.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[var(--color-primary)] transition-colors underline underline-offset-4 decoration-[var(--color-primary)]/30">Rimon Dutta</a>
           </p>
           
           <div className="flex items-center gap-4">
