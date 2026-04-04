@@ -68,7 +68,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* ROW 2: MAIN NAVIGATION BAR */}
+      {/* ROW 2: MAI NAVIGATION BAR */}
       <nav
         className={`w-full transition-all duration-500 overflow-hidden ${isScrolled
           ? "bg-[#0E0E0E]/95 backdrop-blur-md shadow-[0_10px_30px_rgba(0,0,0,0.5)] border-b border-[#333]"
