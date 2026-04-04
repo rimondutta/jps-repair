@@ -75,7 +75,7 @@ export default function AboutSection() {
               }`}
             >
               <p>
-                From simple maintenance to complete engine rebuilds, JPS REPAIR IT MOBILE provides elite-level car servicing that prioritizes quality, precision, and longevity. We believe every vehicle deserves meticulous attention and premium parts.
+                From simple maintenance to complete engine rebuilds, ProWrench Mobile provides elite-level car servicing that prioritizes quality, precision, and longevity. We believe every vehicle deserves meticulous attention and premium parts.
               </p>
               <p>
                 Our certified mechanics utilize state-of-the-art diagnostic equipment to pinpoint underlying issues that other shops miss. Experience true automotive performance care designed to extend the lifespan of your passion.

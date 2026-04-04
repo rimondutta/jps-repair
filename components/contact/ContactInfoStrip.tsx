@@ -57,9 +57,9 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<Phone className="w-8 h-8" />}
             label="CALL US ANYTIME"
-            value="+17869325802"
+            value="+13052839548"
             sub="Monâ€“Sat 9:00am â€“ 7:00pm"
-            href="tel:+17869325802"
+            href="tel:+13052839548"
             delay={0}
             showDivider={true}
           />
@@ -67,9 +67,9 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<Mail className="w-8 h-8" />}
             label="SEND US AN EMAIL"
-            value="info@jpsrepair.com"
+            value="info@prowrench.com"
             sub="We reply within 24 hours"
-            href="mailto:info@jpsrepair.com"
+            href="mailto:info@prowrench.com"
             delay={100}
             showDivider={true}
           />
@@ -77,8 +77,8 @@ export default function ContactInfoStrip() {
           <InfoBox 
             icon={<MapPin className="w-8 h-8" />}
             label="VISIT OUR LOCATION"
-            value="Miami, FL 33142"
-            sub="Miami, FL"
+            value="14092 SW 260th St, Homestead, FL 33032, United States"
+            sub="Homestead, FL"
             delay={200}
             showDivider={false}
           />

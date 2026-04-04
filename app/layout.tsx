@@ -17,7 +17,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "JPS REPAIR IT MOBILE | Car Repair and Maintenance",
+  title: "ProWrench Mobile | Car Repair and Maintenance",
   description: "Best automobile maintenance workshop providing all types of car repair and maintenance services.",
 };
 

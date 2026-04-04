@@ -16,12 +16,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!service) {
     return {
-      title: "Service Not Found | JPS REPAIR IT MOBILE",
+      title: "Service Not Found | ProWrench Mobile",
     };
   }
 
   return {
-    title: `${service.title} | JPS REPAIR IT MOBILE`,
+    title: `${service.title} | ProWrench Mobile`,
     description: service.shortDescription,
   };
 }

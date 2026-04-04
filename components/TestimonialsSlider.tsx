@@ -9,7 +9,7 @@ const testimonials = [
     id: 1,
     name: "Alex Johnson",
     city: "Detroit, MI",
-    quote: "I've visited numerous auto maintenance shops, but JPS REPAIR IT MOBILE exceeds all expectations. Their attention to detail on my classic car was phenomenal. True experts.",
+    quote: "I've visited numerous auto maintenance shops, but ProWrench Mobile exceeds all expectations. Their attention to detail on my classic car was phenomenal. True experts.",
     rating: 5,
     image: "/assets/asset 35.png"
   },
@@ -56,7 +56,7 @@ export default function TestimonialsSlider() {
              </span>
              <h2 className="text-white heading-font text-4xl md:text-5xl font-bold uppercase leading-tight">
                 What Our Clients <br />
-                <span className="text-[var(--color-primary)] italic">Say About</span> JPS REPAIR IT MOBILE...
+                <span className="text-[var(--color-primary)] italic">Say About</span> ProWrench Mobile...
              </h2>
           </div>
           <Link 

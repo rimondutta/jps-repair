@@ -45,7 +45,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex items-center gap-2 pr-6 border-r border-[#333]">
               <Mail className="w-3.5 h-3.5 text-[var(--color-primary)]" />
-              <span className="font-medium tracking-wider">info@jpsrepair.com</span>
+              <span className="font-medium tracking-wider">info@prowrench.com</span>
             </div>
             <div className="flex items-center gap-2 px-6 border-r border-[#333]">
               <Clock className="w-3.5 h-3.5 text-[var(--color-primary)]" />
@@ -53,7 +53,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-2 pl-6">
               <MapPin className="w-3.5 h-3.5 text-[var(--color-primary)]" />
-              <span className="font-medium tracking-wider">Miami, FL 33142</span>
+              <span className="font-medium tracking-wider">14092 SW 260th St, Homestead, FL 33032, United States</span>
             </div>
           </div>
 
@@ -83,7 +83,7 @@ export default function Navbar() {
               <Wrench className="text-white w-3.5 h-3.5 sm:w-5 sm:h-5" />
             </div>
             <span className="text-white text-[15px] sm:text-xl md:text-2xl lg:text-3xl font-black uppercase tracking-tight flex items-center truncate">
-              JPS<span className="text-[var(--color-primary)]">REPAIR</span>IT MOBILE
+              Pro<span className="text-[var(--color-primary)]">Wrench</span> MOBILE
             </span>
           </Link>
 
@@ -116,8 +116,8 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col justify-center leading-tight">
                 <span className="text-[10px] text-white/60 font-bold uppercase tracking-widest mb-0.5">Need Help?</span>
-                <a href="tel:+17869325802" className="text-white font-black text-sm md:text-lg hover:text-[var(--color-primary)] transition-colors">
-                  +1 786 932 5802
+                <a href="tel:+13052839548" className="text-white font-black text-sm md:text-lg hover:text-[var(--color-primary)] transition-colors">
+                  +1 305 283 9548
                 </a>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col">
                 <span className="text-white/40 text-[10px] uppercase font-bold tracking-widest">Call Now</span>
-                <span className="text-white font-bold text-xl">+1 786 932 5802</span>
+                <span className="text-white font-bold text-xl">+1 305 283 9548</span>
               </div>
             </div>
           </div>

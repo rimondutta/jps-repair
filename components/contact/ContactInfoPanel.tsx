@@ -27,9 +27,9 @@ export default function ContactInfoPanel() {
   }, []);
 
   const contactRows = [
-    { icon: <Phone size={18} />, label: "Phone", value: "+1 786 932 5802", href: "tel:+17869325802" },
-    { icon: <Mail size={18} />, label: "Email", value: "info@jpsrepair.com", href: "mailto:info@jpsrepair.com" },
-    { icon: <MapPin size={18} />, label: "Address", value: "Miami, FL 33142", href: undefined },
+    { icon: <Phone size={18} />, label: "Phone", value: "+1 305 283 9548", href: "tel:+13052839548" },
+    { icon: <Mail size={18} />, label: "Email", value: "info@prowrench.com", href: "mailto:info@prowrench.com" },
+    { icon: <MapPin size={18} />, label: "Address", value: "14092 SW 260th St, Homestead, FL 33032, United States", href: undefined },
   ];
 
   return (
@@ -56,7 +56,7 @@ export default function ContactInfoPanel() {
         </h2>
         
         <p className="text-[#999] text-base leading-relaxed mb-8">
-          When you bring your vehicle to JPS REPAIR IT MOBILE, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure your experience is pleasant and efficient.
+          When you bring your vehicle to ProWrench Mobile, you can rest easy knowing that your vehicle is in professional hands. We take every possible step to ensure your experience is pleasant and efficient.
         </p>
 
         <div className="flex flex-col gap-6">
